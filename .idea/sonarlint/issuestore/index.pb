@@ -26,3 +26,13 @@ Z
 +src/main/java/org/example/Part1/Remove.java,a/8/a8e8167c6e810d107b9ae39c51ef9f4171c0b785
 U
 %src/main/java/org/example/Part4/j.txt,0/e/0ee8645d4640c1b6966472fc445ba45fab65f1a3
+Z
+*src/main/java/org/example/Part4/Part4.java,0/d/0d583addc6d1213ed5192e16aceeb776471545bd
+e
+5src/main/java/org/example/Part4/BeatlesException.java,1/3/13b66993fc55bb9010f9bc9be1bc44f0acc07ad6
+Y
+)src/main/java/org/example/Part4/isIn.java,9/4/94814bab32ebf4f3eb8f1861f7ed9b397a9f0d5b
+Z
+*src/main/java/org/example/Part5/Part5.java,d/8/d8fa2d6039006ce40122f449e8bb2577e0e10b8c
+_
+/src/main/java/org/example/Part5/SetProblem.java,1/f/1f2e139ba0fad392601b508c59c00db7b9f11dfd
