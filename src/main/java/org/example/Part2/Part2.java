@@ -1,14 +1,14 @@
-package org.example.Part1;
+package org.example.Part2;
 
-import java.util.HashMap;
-import java.util.Scanner;
+import org.example.Part1.CovertSong;
 
-public class Part1 {
+import java.util.*;
 
 
+public class Part2 {
     public static void main(String[] args) {
-        HashMap<String,Integer> timesRepeated =new HashMap<>();
-        int times = 0;
+
+        int times =0;
         String song= "In the town where I was born\n" +
                 "Lived a man who sailed to sea\n" +
                 "And he told us of his life\n" +
@@ -59,21 +59,24 @@ public class Part1 {
 
         String[] songArray = song.split(" ");
 
+        List<String> songList = Covert.toList(songArray);
 
-        Scanner scanner = new Scanner(System.in);
+        songList= Covert.removeDuplicates(songList);
+
+
+        Iterator iterator = songList.iterator();
 
 
 
-        for (String val1 : songArray) {
-            times = 0;
-            for (String val2 : songArray) {
-                if (val1.equals(val2)) {
-                    times += 1;
-                }
 
-            }
-            timesRepeated.put(val1,times);
-        }
-        System.out.println("This is the amount of times each word is repeated : " + timesRepeated);
+
+        //songList.sort(Comparator.comparingInt(String::length));
+        songList = songList.stream().sorted(Comparator.comparing(String::length)).toList();
+
+        System.out.println(songList);
+
+
+
     }
+
 }
