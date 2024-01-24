@@ -1,6 +1,6 @@
 package org.example.Part1;
 
-public class CovertSong {
+public class Remove {
 
     public static String Convert(String song){
         song=song.replace(","," ");

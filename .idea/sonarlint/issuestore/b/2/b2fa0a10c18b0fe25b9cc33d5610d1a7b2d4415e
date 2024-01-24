@@ -1,17 +1,11 @@
 
 …
-java:S1192"cDefine a constant instead of duplicating this literal "We all live in a yellow submarine
-" 8 times.(ï™á¯ûÿÿÿÿ8Ş×¿ŞÓ1
+java:S1192"cDefine a constant instead of duplicating this literal "We all live in a yellow submarine
+" 8 times.(ï™á¯ûÿÿÿÿ8›ø”çÓ1
 
-java:S1192"dDefine a constant instead of duplicating this literal "Yellow submarine, yellow submarine
-" 8 times.(” µŞ8ß×¿ŞÓ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç¸¦º8à×¿ŞÓ1
-G
-java:S1481	"*Remove this unused "count" local variable.(æÕ¿¼8¹é†ßÓ1
-F
-java:S1481
-")Remove this unused "size" local variable.(ŠİıŞ8¹é†ßÓ1
+java:S1192"dDefine a constant instead of duplicating this literal "Yellow submarine, yellow submarine
+" 8 times.(” µŞ8œø”çÓ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç¸¦º8ø”çÓ1
 T
-java:S6126"2Replace this String concatenation with Text block.(æ“²Éûÿÿÿÿ8ê×¿ŞÓ1
-L	java:S106@"+Replace this use of System.out by a logger.(É¾‚ˆøÿÿÿÿ8ğ×¿ŞÓ1
-L	java:S106G"+Replace this use of System.out by a logger.(Œßà°ÿÿÿÿÿ8ñ×¿ŞÓ1
+java:S6126"2Replace this String concatenation with Text block.(æ“²Éûÿÿÿÿ8¥ø”çÓ1
+L	java:S106G"+Replace this use of System.out by a logger.(¡ÃŠúÿÿÿÿ8¨ø”çÓ1

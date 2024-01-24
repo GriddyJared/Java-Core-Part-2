@@ -1,6 +1,6 @@
 package org.example.Part2;
 
-import org.example.Part1.CovertSong;
+import org.example.Part1.Remove;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ import java.util.*;
 public class Part2 {
     public static void main(String[] args) {
 
-        int times =0;
+
         String song= "In the town where I was born\n" +
                 "Lived a man who sailed to sea\n" +
                 "And he told us of his life\n" +
@@ -55,13 +55,13 @@ public class Part2 {
                 "Yellow submarine, yellow submarine\n";
 
 
-        song= CovertSong.Convert(song);
+        song= Remove.Convert(song);
 
         String[] songArray = song.split(" ");
 
-        List<String> songList = Covert.toList(songArray);
+        List<String> songList = Convert.toList(songArray);
 
-        songList= Covert.removeDuplicates(songList);
+        songList= Convert.removeDuplicates(songList);
 
 
         Iterator iterator = songList.iterator();

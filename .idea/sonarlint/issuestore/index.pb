@@ -14,3 +14,15 @@ _
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Z
+*src/main/java/org/example/Part3/Part3.java,9/7/972fd61fe87e0b15706577b09b74441a055f0ff4
+Z
+*src/main/java/org/example/Part2/Part2.java,2/1/21428b53bf15be59053d47355e9edfeb3fd2dff2
+\
+,src/main/java/org/example/Part2/Convert.java,a/c/acb2d9dfa53ab43b2ce5c7dbc4fc2729e6a4bb14
+`
+0src/main/java/org/example/Part1/ConvertSong.java,d/b/dbd0f95c87c54ea532f095ca66af1ad43489a71c
+[
++src/main/java/org/example/Part1/Remove.java,a/8/a8e8167c6e810d107b9ae39c51ef9f4171c0b785
+U
+%src/main/java/org/example/Part4/j.txt,0/e/0ee8645d4640c1b6966472fc445ba45fab65f1a3

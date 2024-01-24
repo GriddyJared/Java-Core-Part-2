@@ -1,13 +1,13 @@
-package org.example.Part1;
-
-import java.util.HashMap;
-
-public class Part1 {
+package org.example.Part3;
 
 
+import org.example.Part1.Part1;
+import org.example.Part1.Remove;
+
+import java.util.*;
+
+public class Part3 {
     public static void main(String[] args) {
-        HashMap<String,Integer> timesRepeated =new HashMap<>();
-        int times = 0;
         String song= "In the town where I was born\n" +
                 "Lived a man who sailed to sea\n" +
                 "And he told us of his life\n" +
@@ -52,22 +52,15 @@ public class Part1 {
                 "Yellow submarine, yellow submarine\n" +
                 "We all live in a yellow submarine\n" +
                 "Yellow submarine, yellow submarine\n";
-
-
         song= Remove.Convert(song);
+        List<String> songList = new ArrayList<String>(Arrays.asList(song.split(" ")));
+        Set<String>songSet = new HashSet<>(songList);
 
-        String[] songArray = song.split(" ");
+        songSet.remove("yellow");
+        songSet.remove("submarine");
+        songList=new ArrayList<>(songSet);
+        System.out.println(songList);
 
-        for (String val1 : songArray) {
-            times = 0;
-            for (String val2 : songArray) {
-                if (val1.equals(val2)) {
-                    times += 1;
-                }
 
-            }
-            timesRepeated.put(val1,times);
-        }
-        System.out.println("This is the amount of times each word is repeated : " + timesRepeated);
     }
 }

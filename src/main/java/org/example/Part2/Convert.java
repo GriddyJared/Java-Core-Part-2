@@ -2,7 +2,7 @@ package org.example.Part2;
 
 import java.util.*;
 
-public class Covert{
+public class Convert {
     public static List<String> toList(String[]songArray){
 
 
