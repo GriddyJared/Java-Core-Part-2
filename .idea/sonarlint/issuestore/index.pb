@@ -36,3 +36,17 @@ Z
 *src/main/java/org/example/Part5/Part5.java,d/8/d8fa2d6039006ce40122f449e8bb2577e0e10b8c
 _
 /src/main/java/org/example/Part5/SetProblem.java,1/f/1f2e139ba0fad392601b508c59c00db7b9f11dfd
+g
+7src/main/java/org/example/TextSearch/textForSearch.java,b/d/bdc7641670cb39cec7281b2cdca7c2923cad80dc
+b
+2src/main/java/org/example/Regex/findOrderUUID.java,b/a/ba022aad93f4e02239e5e676f09797526b143ff1
+]
+-src/main/java/org/example/Regex/contains.java,b/8/b824949c2e8ddf9c429c55a573364a57d801376c
+Z
+*src/main/java/org/example/Regex/regex.java,d/0/d0cbe30410264c0b5911cf8b7cc378ff8dd28c5e
+]
+-src/main/java/org/example/Regex/Contains.java,e/6/e6adb1ee87a5f7c4ff4b309b8c5817f2326bf1b4
+`
+0src/main/java/org/example/Regex/FindContain.java,9/3/9349ad21a5418f0ebaffa8f11a96df2bd43f6268
+a
+1src/main/java/org/example/Regex/FindContains.java,2/d/2d0bfe5324193d14f5ca967922907fba83ff4224
